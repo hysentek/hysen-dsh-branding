@@ -42,8 +42,7 @@ the client half, and nothing is installed from the npm registry. Requirements:
 
 - DSH with a Web profile (built and tested against `0.2.2-rc.5`).
 - `pnpm` on the Host's `PATH` — Plugin Manager runs it for installs.
-- Network access to this repository; it is private, so the machine needs a
-  credential (SSH key or git credential helper) for the git address.
+- Network access to GitHub, or to the release asset.
 
 Install it from the **Plugins** panel → **Add plugin** and enter one of:
 
@@ -53,10 +52,16 @@ Install it from the **Plugins** panel → **Add plugin** and enter one of:
 | Git over SSH | `git+ssh://git@github.com/hysentek/hysen-dsh-branding.git` |
 | Git over HTTPS | `git+https://github.com/hysentek/hysen-dsh-branding.git` |
 | A local clone | the absolute path to the cloned directory |
-| The packed tarball | `npm pack` in this directory, then the absolute `.tgz` path |
+| The release tarball | `https://github.com/hysentek/hysen-dsh-branding/releases/download/v1.1.1/local-hysentek-branding-1.1.1.tgz` |
+| A locally packed tarball | `npm pack` in this directory, then the absolute `.tgz` path |
 
 A git spec accepts a tag or commit fragment, such as
-`github:hysentek/hysen-dsh-branding#v1.1.0`, to pin a deployment to a release.
+`github:hysentek/hysen-dsh-branding#v1.1.1`, to pin a deployment to a release.
+Every release publishes the packed tarball as an asset.
+
+Ready-to-paste agent prompts for the target machine live in
+[`docs/INSTALL_PROMPT.md`](docs/INSTALL_PROMPT.md) (Vietnamese) and
+[`docs/INSTALL_PROMPT.en.md`](docs/INSTALL_PROMPT.en.md) (English).
 
 Then keep **Hysentek branding** enabled in the Plugins panel. The open page
 applies the bundle when its client half arrives; reload once if it does not.

@@ -49,10 +49,14 @@ Install it from the **Plugins** panel → **Add plugin** and enter one of:
 
 | Source | Spec to enter |
 | --- | --- |
+| GitHub shorthand | `github:hysentek/hysen-dsh-branding` |
 | Git over SSH | `git+ssh://git@github.com/hysentek/hysen-dsh-branding.git` |
 | Git over HTTPS | `git+https://github.com/hysentek/hysen-dsh-branding.git` |
 | A local clone | the absolute path to the cloned directory |
 | The packed tarball | `npm pack` in this directory, then the absolute `.tgz` path |
+
+A git spec accepts a tag or commit fragment, such as
+`github:hysentek/hysen-dsh-branding#v1.1.0`, to pin a deployment to a release.
 
 Then keep **Hysentek branding** enabled in the Plugins panel. The open page
 applies the bundle when its client half arrives; reload once if it does not.

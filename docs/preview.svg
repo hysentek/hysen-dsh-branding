@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300" role="img" aria-label="The Hysentek monogram, brand palette, and branded sidebar row">
+  <defs>
+    <linearGradient id="hy-preview-mark" x1="5.2" y1="6.2" x2="30.8" y2="29.8" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="hy-preview-aura" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#4F46E5" stop-opacity="0.24"/>
+      <stop offset="0.55" stop-color="#0891B2" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#0891B2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Brand aura behind the display mark -->
+  <ellipse cx="480" cy="150" rx="150" ry="125" fill="url(#hy-preview-aura)"/>
+
+  <!-- Branded sidebar brand row -->
+  <rect x="44" y="44" width="244" height="212" rx="24" fill="#1B1B28" stroke="#3F3F60" stroke-width="1"/>
+  <g transform="translate(68 72) scale(0.7778)" fill="url(#hy-preview-mark)">
+    <rect x="8" y="6.2" width="6.5" height="23.6" rx="2.2"/>
+    <rect x="21.5" y="6.2" width="6.5" height="23.6" rx="2.2"/>
+    <rect x="5.2" y="15.9" width="25.6" height="4.2" rx="2.1"/>
+  </g>
+  <rect x="104" y="80" width="82" height="12" rx="6" fill="#E6E6F4"/>
+  <rect x="193" y="78" width="1.5" height="16" rx="0.75" fill="#4A4A6E"/>
+  <rect x="200" y="81" width="16" height="10" rx="5" fill="#8B93F8"/>
+
+  <!-- Placeholder navigation rows -->
+  <rect x="68" y="132" width="148" height="9" rx="4.5" fill="#2B2B40"/>
+  <rect x="68" y="160" width="116" height="9" rx="4.5" fill="#2B2B40"/>
+  <rect x="68" y="188" width="164" height="9" rx="4.5" fill="#2B2B40"/>
+
+  <!-- Brand-tinted primary action -->
+  <rect x="68" y="216" width="120" height="24" rx="8" fill="#202036" stroke="#34345A" stroke-width="1"/>
+  <circle cx="82" cy="228" r="5" fill="#22D3EE"/>
+  <rect x="92" y="224.5" width="64" height="7" rx="3.5" fill="#3C3C5C"/>
+
+  <!-- Monogram at display size -->
+  <g transform="translate(373.44 14.41) scale(7.03)" fill="url(#hy-preview-mark)">
+    <rect x="8" y="6.2" width="6.5" height="23.6" rx="2.2"/>
+    <rect x="21.5" y="6.2" width="6.5" height="23.6" rx="2.2"/>
+    <rect x="5.2" y="15.9" width="25.6" height="4.2" rx="2.1"/>
+  </g>
+
+  <!-- Brand palette: light and dark accent pairs -->
+  <circle cx="440" cy="252" r="13" fill="#4F46E5" stroke="#8A8AA3" stroke-opacity="0.45" stroke-width="1"/>
+  <circle cx="483" cy="252" r="13" fill="#818CF8" stroke="#8A8AA3" stroke-opacity="0.45" stroke-width="1"/>
+  <circle cx="526" cy="252" r="13" fill="#0891B2" stroke="#8A8AA3" stroke-opacity="0.45" stroke-width="1"/>
+  <circle cx="569" cy="252" r="13" fill="#22D3EE" stroke="#8A8AA3" stroke-opacity="0.45" stroke-width="1"/>
+</svg>

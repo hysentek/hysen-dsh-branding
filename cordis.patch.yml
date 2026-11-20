@@ -1,0 +1,4 @@
+# Hysentek branding: one Host row whose Client half carries the identity.
+- insert:
+    - id: hysentek-branding
+      name: '@local/hysentek-branding'

@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Hysentek branding",
+    "description": "Rebrands the web app with Hysentek identity: the sidebar logo and wordmark, the new-session mark and headline, brand accents (buttons, links, focus rings, sidebar tint, tab accents), the home aura, and the browser tab title and icon. Open the Plugins panel in the sidebar and keep Hysentek branding enabled; disabling it restores the shipped branding and browser chrome. The blank-home headline defaults to \"Bố làm tất\" (set BRAND.headline in client.js; empty keeps DSH's copy). Known limits: the headline patch only matches DSH's shipped translations; other hard-coded copy (settings labels, PWA manifest) is unchanged; the whale's click animation is replaced by a static aura; the tab title is rewritten only when it ends with the shipped product title; the accents are a brand subset, not a full recolor.",
+    "detail": "docs/DETAIL.md"
+  }
+}

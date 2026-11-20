@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Nhận diện thương hiệu Hysentek",
+    "description": "Đổi nhận diện ứng dụng web sang Hysentek: logo và biểu trưng chữ ở thanh bên, biểu tượng và tiêu đề màn hình phiên mới, màu nhấn thương hiệu (nút, liên kết, vòng focus, nền thanh bên, điểm nhấn tab), quầng sáng trang chủ, cùng tiêu đề và biểu tượng tab trình duyệt. Mở bảng Plugins ở thanh bên và giữ Nhận diện thương hiệu Hysentek bật; tắt sẽ trả lại nhận diện và phần chrome trình duyệt gốc. Tiêu đề trang chủ mặc định là \"Bố làm tất\" (đổi BRAND.headline trong client.js; để trống sẽ giữ nguyên chữ của DSH). Giới hạn: bản vá tiêu đề chỉ khớp các bản dịch gốc của DSH; các chữ gắn cứng khác (nhãn cài đặt, PWA manifest) không đổi; hiệu ứng click của cá voi được thay bằng quầng sáng tĩnh; tiêu đề tab chỉ được đổi khi kết thúc bằng tiêu đề sản phẩm gốc; các màu nhấn là một tập con thương hiệu, không phải đổi màu toàn bộ."
+  }
+}
